@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maximal Cliques Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Maximal Cliques Analysis</h1>
+        <p>Comparing Chiba, Tomita, and ELS Algorithms</p>
+    </header>
+    <main>
+        <section id="datasets">
+            <h2>Datasets</h2>
+            <!-- Replace "Dataset1" etc. with your actual dataset names -->
+            <div class="dataset" id="dataset1">
+                <h3>Dataset 1</h3>
+                <p>Largest Clique Size: <span id="ds1-largest"></span></p>
+                <p>Total Maximal Cliques: <span id="ds1-total"></span></p>
+                <h4>Execution Time (seconds)</h4>
+                <canvas id="ds1-time-chart"></canvas>
+                <h4>Clique Size Distribution</h4>
+                <canvas id="ds1-size-chart"></canvas>
+            </div>
+            <!-- Add more datasets as needed -->
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
